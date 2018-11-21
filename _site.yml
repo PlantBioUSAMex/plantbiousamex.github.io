@@ -1,0 +1,22 @@
+name: "Plant Biology USA-Mex 2019"
+navbar:
+  title: "Plant Biology USA-Mex 2019"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Organizing Committee"
+      icon: fa-users
+      href: organizing_commitee.html
+    - text: "Program"
+      icon: fa-file-text
+      href: program.html
+    - text: "Registration"
+      icon: fa-newspaper-o
+      href: registration.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: kate
+exclude: [".Rproj","README.md"]
+output_dir: "."
